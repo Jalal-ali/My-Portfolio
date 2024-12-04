@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [hambrgr, setHambrgr] = useState(true);
@@ -45,46 +46,26 @@ const Navbar = () => {
         >
         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border-b-2 border-t-2 border-opacity-60 border-[#b3f6ed] rounded-lg md:flex-row md:space-x-16 rtl:space-x-reverse md:mt-0 md:border-0 bg-transparent">
   <li>
-    <a
-      href="#"
-      className="block py-2 px-3 bg-transparent rounded md:bg-transparent md:text-[#ffffff] md:p-0 text-white md:dark:text-[#ff1313] hover:bg-emerald-950 hover:text-white focus:outline-none focus:ring-2 focus:ring-[#ff1313] focus:ring-opacity-50"
-      aria-current="page"
-    >
-      PRODUCTS 
-    </a>
+    <Link className="lg:hover-link xl:hover-link block py-2 px-3 text-lg text-white rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:p-0" 
+    to="/">Home</Link>
   </li>
   <li>
-    <a
-      href="#"
-      className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:hover:text-[#26dcc5] md:p-0 dark:text-white dark:hover:text-[#26dcc5] focus:outline-none focus:ring-2 focus:ring-[#ff1313] focus:ring-opacity-50"
-    >
-      SOLUTIONS +
-    </a>
+    <Link className="lg:hover-link xl:hover-link block py-2 px-3 text-lg text-white rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:p-0" 
+    to="/about">About</Link>
   </li>
   <li>
-    <a
-      href="#"
-      className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:hover:text-[#26dcc5] md:p-0 dark:text-white dark:hover:text-[#26dcc5] focus:outline-none focus:ring-2 focus:ring-[#ff1313] focus:ring-opacity-50"
-    >
-      ABOUT
-    </a>
+    <Link className="lg:hover-link xl:hover-link block py-2 px-3 text-lg text-white rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:p-0" 
+    to="/projects">Projects</Link>
   </li>
   <li>
-    <a
-      href="#"
-      className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:hover:text-[#26dcc5] md:p-0 dark:text-white dark:hover:text-[#26dcc5] focus:outline-none focus:ring-2 focus:ring-[#ff1313] focus:ring-opacity-50"
-    >
-      BLOG
-    </a>
+    <Link className="lg:hover-link xl:hover-link block py-2 px-3 text-lg text-white rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:p-0" 
+    to="/skills">Skills</Link>
   </li>
   <li>
-    <a
-      href="#"
-      className="block py-2 px-3 text-gray-900 rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:hover:text-[#26dcc5] md:p-0 dark:text-white dark:hover:text-[#26dcc5] focus:outline-none focus:ring-2 focus:ring-[#ff1313] focus:ring-opacity-50"
-    >
-      CONTACT
-    </a>
+    <Link className="lg:hover-link xl:hover-link block py-2 px-3 text-lg text-white rounded hover:bg-emerald-950 md:hover:bg-transparent md:border-0 md:p-0" 
+    to="/contact">Contact</Link>
   </li>
+ 
 </ul>
 
         </div>
