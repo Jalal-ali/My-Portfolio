@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <div className="text-3xl text-[#00debf] font-poppins font-bold">
+    <div className="text-3xl text-[#00debf] font-bold">
 
     <Typewriter
       options={{

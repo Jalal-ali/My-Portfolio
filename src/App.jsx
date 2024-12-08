@@ -1,15 +1,14 @@
 import codeLogo from "./assets/codeLogo.png"
 import Type from "./components/type.jsx"
 import Logo2 from './assets/logo2.svg'
-import Animation from "./components/Animation.tsx"
-
+// import Animation from "./components/Animation.tsx"
 const App = () => {
   
 
   return (
     <>
       {/* Background animation */}
-      <Animation />
+      {/* <Animation /> */}
       
       
         <section  className="max-w-full w-full bg-[#123128] bg-opacity-60 text-white" id="home">
@@ -113,7 +112,7 @@ const App = () => {
 <p className="mt-6 text-base sm:text-sm font-poppins font-light text-white leading-relaxed">FEEL FREE TO <span className="text-[#62f0dd]">CONNECT</span> WITH ME</p>
   {/* social media icons  */}
   <ul className="flex justify-center mt-8 space-x-4">
-  <li className="rounded-full duration-300 p-1.5 shadow-inner shadow-[#73bc9c9d]  hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
+  <li className="rounded-full duration-300 p-1.5 shadow-inner shadow-[#73bc9c5c]  hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
     <a
       href="https://www.facebook.com/share/15Nb6qmj8y/?mibextid=JRoKGi"
       className="text-[#4aeede]"
@@ -156,7 +155,7 @@ const App = () => {
       </svg>
     </a>
   </li> */}
-  <li className="rounded-full duration-200 p-1.5 shadow-inner shadow-[#73bc9c9d] hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
+  <li className="rounded-full duration-200 p-1.5 shadow-inner shadow-[#73bc9c5c] hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
     <a
       href="mailto:alikhanumar795@gmail.com"
       className="text-[#4aeede]"
@@ -179,7 +178,7 @@ const App = () => {
 
     </a>
   </li>
-  <li className="rounded-full duration-200 p-1.5 shadow-inner shadow-[#73bc9c9d] hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
+  <li className="rounded-full duration-200 p-1.5 shadow-inner shadow-[#73bc9c5c] hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
     <a
       href="https://github.com/Jalal-ali"
       className="text-[#4aeede]"
@@ -201,7 +200,7 @@ const App = () => {
       </svg>
     </a>
   </li>
-  <li className="rounded-full duration-200 p-1.5 shadow-inner shadow-[#73bc9c9d] hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
+  <li className="rounded-full duration-200 p-1.5 shadow-inner shadow-[#73bc9c5c] hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
   <a
     href="https://www.linkedin.com/in/jalal-ali-733490164?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BwdD%2F%2FXO%2FRgWgy1FMJrXIjw%3D%3D"
     aria-label="Find us on LinkedIn"

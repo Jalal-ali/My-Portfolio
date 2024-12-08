@@ -1,10 +1,10 @@
-import Animation from "../components/Animation"
+// import Animation from "../components/Animation"
 
 const Projects = () => {
   return (
     
     <>
-      <Animation />
+      {/* <Animation /> */}
     </>
   )
 }

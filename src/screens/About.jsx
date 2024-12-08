@@ -1,10 +1,14 @@
-import Animation from "../components/Animation"
-
+import Logo from '../assets/Code-typing.svg'
 const About = () => {
   return (
     <>
-      <Animation />
-      <section></section>
+      <section>
+      <img
+            className="h-auto my-10 max-w-xs sm:max-w-sm lg:max-w-md"
+            src={Logo}
+            alt="Avatar Logo"
+          />
+      </section>
     </>
   )
 }

@@ -1,3 +1,6 @@
+/* Import Raleway font */
+@import "typeface-raleway";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

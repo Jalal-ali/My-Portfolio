@@ -1,9 +1,9 @@
-import Animation from "../components/Animation"
+// import Animation from "../components/Animation"
 
 const Skills = () => {
   return (
     <>
-      <Animation />  
+      {/* <Animation />   */}
     </>
   )
 }
