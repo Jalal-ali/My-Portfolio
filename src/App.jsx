@@ -1,16 +1,11 @@
 import codeLogo from "./assets/codeLogo.png"
 import Type from "./components/type.jsx"
 import Logo2 from './assets/logo2.svg'
-// import Animation from "./components/Animation.tsx"
 const App = () => {
   
 
   return (
-    <>
-      {/* Background animation */}
-      {/* <Animation /> */}
-      
-      
+    <>   
         <section  className="max-w-full w-full bg-[#123128] bg-opacity-60 text-white" id="home">
   <div className="max-w-full w-full px-6 sm:px-10 lg:px-28 py-10 overflow-hidden">
         

@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar"
 import { Outlet } from 'react-router-dom'
-import Animation from './components/Animation'
+import Animation from './components/Animation.tsx'
 const Layout = () => {
   return (
     <>
