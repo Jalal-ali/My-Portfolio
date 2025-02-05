@@ -4,10 +4,9 @@ import Animation from './components/Animation.tsx'
 const Layout = () => {
   return (
     <>
-    
-    <Animation/>
-    <Navbar/>
-    <Outlet/>
+      <Animation />
+      <Navbar />
+      <Outlet />
     </>
   )
 }

@@ -9,6 +9,10 @@ export default {
   theme: {
     extend: {
       keyframes: {
+        shine: {
+                '0%': { 'background-position': '100%' },
+            '100%': { 'background-position': '-100%' },
+                  },
       blink: {
         "50%": {
           borderColor: "transparent"
@@ -22,8 +26,12 @@ export default {
       sans: ['Raleway', 'sans-serif']
     },
     animation: {
+      shine: 'shine 5s linear infinite',
       typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
-    }
+    },
+    // backgroundImage: {
+    //   'shine-gradient': 'linear-gradient(120deg, rgba(255, 0, 150, 0) 40%, rgba(255, 0, 150, 0.8) 50%, rgba(255, 0, 150, 0) 60%)',
+    // }
   },
   },
   plugins: [

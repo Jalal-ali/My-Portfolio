@@ -6,7 +6,7 @@ const Animation = () => {
   let camera: THREE.PerspectiveCamera,
     scene: THREE.Scene,
     renderer: THREE.WebGLRenderer;
-  const stars: THREE.Mesh[] = []; // Explicitly type the stars array
+  const stars: THREE.Mesh[] = [];
 
   useEffect(() => {
     init();
@@ -81,11 +81,11 @@ const Animation = () => {
   const animateStars = () => {
     for (let i = 0; i < stars.length; i++) {
       const star = stars[i]; // star is now of type THREE.Mesh
-         // Slow down the movement of the stars
-    star.position.z += i / 100; // Increase divisor for slower motion
+      // Slow down the movement of the stars
+      star.position.z += i / 100; // Increase divisor for slower motion
 
-    if (star.position.z > 1000) star.position.z -= 2000;
-  }
+      if (star.position.z > 1000) star.position.z -= 2000;
+    }
   };
 
   const animate = () => {
