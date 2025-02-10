@@ -2,7 +2,7 @@ import plugin from 'tailwindcss';
 
 /** @type {import('tailwindcss').Config} */
 export default {
-  content:[
+  content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
@@ -10,44 +10,41 @@ export default {
     extend: {
       keyframes: {
         shine: {
-                '0%': { 'background-position': '100%' },
-            '100%': { 'background-position': '-100%' },
-                  },
-      blink: {
-        "50%": {
-          borderColor: "transparent"
+          '0%': { 'background-position': '100%' },
+          '100%': { 'background-position': '-100%' },
         },
-        "100%": {
-          borderColor: "white"
+        blink: {
+          "50%": {
+            borderColor: "transparent"
+          },
+          "100%": {
+            borderColor: "white"
+          }
         }
-      }
+      },
+      fontFamily: {
+        sans: ['Raleway', 'sans-serif']
+      },
+      animation: {
+        shine: 'shine 5s linear infinite',
+        typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
+      },
     },
-    fontFamily: {
-      sans: ['Raleway', 'sans-serif']
-    },
-    animation: {
-      shine: 'shine 5s linear infinite',
-      typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
-    },
-    // backgroundImage: {
-    //   'shine-gradient': 'linear-gradient(120deg, rgba(255, 0, 150, 0) 40%, rgba(255, 0, 150, 0.8) 50%, rgba(255, 0, 150, 0) 60%)',
-    // }
-  },
   },
   plugins: [
     plugin(function ({ addVariant, e, postcss }) {
       addVariant('firefox', ({ container, separator }) => {
-      const isFirefoxRule = postcss.atRule({
-        name: '-moz-document',
-        params: 'url-prefix()',
-      });
-      isFirefoxRule.append(container.nodes);
-      container.append(isFirefoxRule);
-      isFirefoxRule.walkRules((rule) => {
-        rule.selector = `.${e(
-        `firefox${separator}${rule.selector.slice(1)}`
-        )}`;
-      });
+        const isFirefoxRule = postcss.atRule({
+          name: '-moz-document',
+          params: 'url-prefix()',
+        });
+        isFirefoxRule.append(container.nodes);
+        container.append(isFirefoxRule);
+        isFirefoxRule.walkRules((rule) => {
+          rule.selector = `.${e(
+            `firefox${separator}${rule.selector.slice(1)}`
+          )}`;
+        });
       });
     })
   ],

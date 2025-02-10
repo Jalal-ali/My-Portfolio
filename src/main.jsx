@@ -10,28 +10,28 @@ import Skills from './screens/Skills.jsx'
 
 const router = createBrowserRouter([
   {
-    path : "/" ,
-    element : <Layout/>,
-    children : [
+    path: "/",
+    element: <Layout />,
+    children: [
       {
-        path : "" ,
-        element : <App/>
+        path: "",
+        element: <App />
       },
       {
-        path : "/about",
-        element : <About/>
+        path: "/about",
+        element: <About />
       },
       {
-        path : "/contact",
-        element : <Contact/>
+        path: "/contact",
+        element: <Contact />
       },
       {
-        path : "/projects",
-        element : <Projects/>
+        path: "/projects",
+        element: <Projects />
       },
       {
-        path : "/skills",
-        element : <Skills/>
+        path: "/skills",
+        element: <Skills />
       }
     ]
   }
@@ -39,6 +39,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <RouterProvider router={router}>
-    <App/>
-    </RouterProvider>
+    <App />
+  </RouterProvider>
 )
