@@ -102,7 +102,7 @@ const App = () => {
               {/* Avatar Section */}
               <div className="w-full md:w-4/12 flex justify-center">
                 <img
-                  className="h-auto my-10 max-w-xs sm:max-w-sm lg:max-w-md"
+                  className="h-auto my-1 max-w-xs sm:max-w-sm lg:max-w-md"
                   src={Logo2}
                   alt="Avatar Logo"
                 />
@@ -112,7 +112,7 @@ const App = () => {
           {/* Second Section ended*/}
 
           {/* third section started  */}
-          <div className="min-h-screen flex items-center text-center justify-center bg-cover bg-center">
+          <div className="my-16 flex items-center text-center justify-center bg-cover bg-center">
             <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm p-6 md:p-8 lg:p-10">
               <h1 className='text-4xl lg:text-3xl xl:text-4xl mt-5 mb-5 font-poppins leading-tight text-white'>
                 FIND ME ON
