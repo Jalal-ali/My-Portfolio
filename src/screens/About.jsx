@@ -38,23 +38,24 @@ const About = () => {
                 {/* list  */}
                 <div className="flex flex-col items-start justify-center w-full mt-2 gap-1">
                   <div className="p-2">
-                    <div className="rounded inline-flex items-center w-auto">
-                      <img src={arrow} alt="arrow" />
+                    <div className="rounded inline-flex gap-2 gap-2 items-center w-auto">
+                      <img className='w-8 mt-1 h-8' src={arrow} alt="arrow" />
                       <span className="font-semibold text-lg font-sans mx-1">Exercise</span>
                     </div>
                   </div>
                   <div className="p-2">
-                    <div className="rounded inline-flex items-center w-auto">
-                      <img src={arrow} alt="arrow" />
-                      <span className="font-semibold text-lg font-sans mx-1">Traveling</span>
+                    <div className="rounded inline-flex gap-2 items-center w-auto">
+                      <img className='w-8 mt-1 h-8' src={arrow} alt="arrow" />
+                      <span className="font-semibold text-lg font-sans mx-1">Exercise</span>
                     </div>
                   </div>
                   <div className="p-2">
-                    <div className="rounded inline-flex items-center w-auto">
-                      <img src={arrow} alt="arrow" />
-                      <span className="font-semibold text-lg font-sans mx-1">Sports</span>
+                    <div className="rounded inline-flex gap-2 items-center w-auto">
+                      <img className='w-8 mt-1 h-8' src={arrow} alt="arrow" />
+                      <span className="font-semibold text-lg font-sans mx-1">Exercise</span>
                     </div>
                   </div>
+                  
                 </div>
               </div>
 
@@ -84,19 +85,19 @@ const About = () => {
               <div className="flex flex-col items-center justify-center w-full gap-1">
                 <div className="p-2">
                   <div className="rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm inline-flex p-4 items-center w-auto">
-                    <img src={arrow} alt="arrow" />
+                    <img className='w-8 mt-1 h-8' src={arrow} alt="arrow" />
                     <span className="font-medium mx-5">Affffffffffffrica</span>
                   </div>
                 </div>
                 <div className="p-2">
                   <div className="rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm inline-flex p-4 items-center w-auto">
-                    <img src={arrow} alt="arrow" />
+                    <img className='w-8 mt-1 h-8' src={arrow} alt="arrow" />
                     <span className="font-medium mx-5">Affffffffffffrica</span>
                   </div>
                 </div>
                 <div className="p-2">
                   <div className="rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm inline-flex p-4 items-center w-auto">
-                    <img src={arrow} alt="arrow" />
+                    <img className='w-8 mt-1 h-8' src={arrow} alt="arrow" />
                     <span className="font-medium text-base mx-5">Afffffffffffffffffffffffffffffffffrica</span>
                   </div>
                 </div>
