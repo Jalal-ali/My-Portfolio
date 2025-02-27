@@ -38,7 +38,7 @@ const About = () => {
                 {/* list  */}
                 <div className="flex flex-col items-start justify-center w-full mt-2 gap-1">
                   <div className="p-2">
-                    <div className="rounded inline-flex gap-2 gap-2 items-center w-auto">
+                    <div className="rounded inline-flex gap-2 items-center w-auto">
                       <img className='w-8 mt-1 h-8' src={arrow} alt="arrow" />
                       <span className="font-semibold text-lg font-sans mx-1">Exercise</span>
                     </div>
@@ -105,7 +105,7 @@ const About = () => {
             </div>
           </div>
           {/* 2nd section end  */}
-          <div className="flex flex-col items-center justify-center min-h- my-5 p-">
+          <div className="flex flex-col items-center justify-center my-10">
             <h1 className="text-3xl text-center font-bold mb-6">
               Days I<span className="text-[#00debf]"> Code</span>
             </h1>
