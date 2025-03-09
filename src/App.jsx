@@ -114,10 +114,10 @@ const App = () => {
           {/* third section started  */}
           <div className="my-16 flex items-center text-center justify-center bg-cover bg-center">
             <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm p-6 md:p-8 lg:p-10">
-              <h1 className='text-4xl lg:text-3xl xl:text-4xl mt-5 mb-5 font-poppins leading-tight text-white'>
+              <h1 className='text-2xl lg:text-3xl xl:text-4xl mt-5 mb-5 font-poppins leading-tight text-white'>
                 FIND ME ON
               </h1>
-              <p className="mt-6 text-base sm:text-sm font-poppins font-light text-white leading-relaxed">FEEL FREE TO <span className="text-[#62f0dd]">CONNECT</span> WITH ME</p>
+              <p className="mt-6 text-sm font-poppins font-light text-white leading-relaxed">FEEL FREE TO <span className="text-[#62f0dd]">CONNECT</span> WITH ME</p>
               {/* social media icons  */}
               <ul className="flex justify-center mt-8 space-x-4">
                 <li className="rounded-full duration-300 p-1.5 shadow-inner shadow-[#73bc9c5c]  hover:shadow-inner hover:shadow-[#4aeede] bg-emerald-900">
