@@ -4,7 +4,9 @@ import Logo2 from './assets/logo2.svg'
 import SplitText from "./components/SplitText.jsx"
 
 const App = () => {
+ 
 
+  
 
   return (
     <>

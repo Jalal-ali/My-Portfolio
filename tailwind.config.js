@@ -9,6 +9,14 @@ export default {
   theme: {
     extend: {
       keyframes: {
+        bars: {
+          "58%": {
+            height: "50%",
+          },
+          "100%": {
+            height: "100%",
+          },
+        },
         shine: {
           '0%': { 'background-position': '100%' },
           '100%': { 'background-position': '-100%' },
