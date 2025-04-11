@@ -6,8 +6,12 @@ import Card from '../components/Card'
 const Projects = () => {
     const projects = [
         { title: "Weather App", description: "Description 1", image: Weather, githubLink: "https://github.com/Jalal-ali/weather-app", demoLink: "https://weather-app-rho-dusky.vercel.app/" },
-        { title: "Project 2", description: "Description 2", image: "", githubLink: "", demoLink: ""  },
-        { title: "Project 3", description: "Description 3", image: "", githubLink: "", demoLink: ""  }
+        { title: "Meme Generator", description: "Description 2", image: "", githubLink: "https://github.com/Jalal-ali/meme-app", demoLink: "https://meme-generator-beta-self.vercel.app/"  },
+        { title: "To-Do App", description: "Description 3", image: "", githubLink: "https://github.com/Jalal-ali/FullStack-Todo-App", demoLink: "https://full-stack-todo-app-phi.vercel.app/"  },
+        { title: "Stop Watch", description: "Description 3", image: "", githubLink: "https://github.com/Jalal-ali/StopWatch", demoLink: "https://stop-watch-theta-ruby.vercel.app/"  },
+        { title: "Counter", description: "Description 3", image: "", githubLink: "https://github.com/Jalal-ali/react-counter", demoLink: "https://react-counter-eta-liart.vercel.app/"  },
+        { title: "Salt'n Pepper", description: "Description 3", image: "", githubLink: "https://github.com/Jalal-ali/resp-salt-n-pepper", demoLink: "https://jalal-ali.github.io/resp-salt-n-pepper/"  },
+        { title: "Ockom's Site Clone", description: "Description 3", image: "", githubLink: "https://github.com/Jalal-ali/ockom-clone", demoLink: "https://ockom-clone.vercel.app/"  },
     ];
     
     return (
