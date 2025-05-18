@@ -3,7 +3,7 @@ import ShinyText from '../components/ShinyText.jsx'
 import Weather from "../assets/projects/weather.png"
 import Meme from "../assets/projects/meme.png"
 import Watch from "../assets/projects/watch.png"
-import Todo from "../assets/projects/todo.png"
+// import Todo from "../assets/projects/todo.png"
 import Counter from "../assets/projects/counter.png"
 import Ockom from "../assets/projects/ockoms.png"
 import Salt from "../assets/projects/salt.png"
@@ -19,7 +19,7 @@ const Projects = () => {
         { title: "Salt'n Pepper", description: "A creatively designed clone website developed using HTML and custom CSS, featuring responsive design through media queries. It includes smooth and interactive to elevate the user experience, delivering a fast, clean, and modern interface", image: Salt , githubLink: "https://github.com/Jalal-ali/resp-salt-n-pepper", demoLink: "https://jalal-ali.github.io/resp-salt-n-pepper/"  },
         { title: "e-Commerce", description: "Robust e-Commerce website by using (React)'s efficient single-page routing and (Tailwind CSS)'s design framework, resulting in a fast, intuitive, and mobile-friendly online shopping platform that drives customer engagement and sales.", image: Ecommerce , githubLink: "https://github.com/Jalal-ali/React-eCommerce", demoLink: "https://react-e-commerce-liard.vercel.app/"  },
         { title: "Online marketplace", description: "Developed the front end of an online marketplace using WordPress tools like Elementor, focusing on responsive design, user-friendly layout, and a smooth browsing experience.", image: Shopping , githubLink: null , demoLink: "https://shoppingway.pk/"  },
-        { title: "To-Do App", description: "I developed and designed an interactive, responsive To-Do App using HTML, JavaScript (JS), and Tailwind CSS for a stunning design. This project showcases and highlights my front-end skills, UI expertise, and proficiency in web development.", image: Todo, githubLink: "https://github.com/Jalal-ali/FullStack-Todo-App", demoLink: "https://full-stack-todo-app-phi.vercel.app/"  },
+        { title: "To-Do App", description: "I developed and designed an interactive, responsive To-Do App using HTML, JavaScript (JS), and Tailwind CSS for a stunning design. This project showcases and highlights my front-end skills, UI expertise, and proficiency in web development.", image: Ockom, githubLink: "https://github.com/Jalal-ali/FullStack-Todo-App", demoLink: "https://full-stack-todo-app-phi.vercel.app/"  },
         { title: "Stop Watch", description: "Developed a stopwatch using HTML , JavaScript and i used TailwindCSS for enchanting UI which showcases my skills in front-end development, UI expertise, and JavaScript functionality. The stopwatch features accurate timekeeping, user-friendly interface, and intuitive controls.", image: Watch, githubLink: "https://github.com/Jalal-ali/StopWatch", demoLink: "https://stop-watch-theta-ruby.vercel.app/"  },
         { title: "Counter", description: "Developed a responsive counter web app using React and Tailwind CSS, featuring real-time state updates and a clean, modern UI. Implemented interactive buttons with smooth styling and ensured optimal performance across devices.", image: Counter, githubLink: "https://github.com/Jalal-ali/react-counter", demoLink: "https://react-counter-eta-liart.vercel.app/"  },
     ];
