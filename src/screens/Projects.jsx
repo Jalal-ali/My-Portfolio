@@ -2,8 +2,8 @@ import BlurText from '../components/BlurText'
 import ShinyText from '../components/ShinyText'
 import Weather from "../assets/projects/weather.png"
 import Meme from "../assets/projects/meme.png"
-import Todo from "../assets/projects/todo.png"
 import Watch from "../assets/projects/watch.png"
+import Todo from "../assets/projects/todo.png"
 import Counter from "../assets/projects/counter.png"
 import Ockom from "../assets/projects/ockoms.png"
 import Salt from "../assets/projects/salt.png"
