@@ -12,7 +12,7 @@ import MongoDB from '../assets/mongodb.svg'
 import GIT from '../assets/git.svg'
 import PY from '../assets/python.svg'
 import Expo from '../assets/expo.svg'
-import BlurText from '../components/BlurText'
+import BlurText from '../components/BlurText.jsx'
 
 const Skills = () => {
   return (

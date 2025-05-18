@@ -2,7 +2,7 @@
 import Logo from '../assets/Code-typing.svg'
 import arrow from '../assets/arrow.svg'
 import GitHubCalendar from 'react-github-calendar';
-import ShinyText from '../components/ShinyText'
+import ShinyText from '../components/ShinyText.jsx'
 
 const About = () => {
   return (

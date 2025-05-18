@@ -1,5 +1,5 @@
-import BlurText from '../components/BlurText'
-import ShinyText from '../components/ShinyText'
+import BlurText from '../components/BlurText.jsx'
+import ShinyText from '../components/ShinyText.jsx'
 import Weather from "../assets/projects/weather.png"
 import Meme from "../assets/projects/meme.png"
 import Watch from "../assets/projects/watch.png"
@@ -9,7 +9,7 @@ import Ockom from "../assets/projects/ockoms.png"
 import Salt from "../assets/projects/salt.png"
 import Ecommerce from "../assets/projects/ecommerce.png"
 import Shopping from "../assets/projects/shopping.png"
-import Card from '../components/Card'
+import Card from '../components/Card.jsx'
 
 const Projects = () => {
     const projects = [
