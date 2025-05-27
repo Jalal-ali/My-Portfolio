@@ -1,5 +1,5 @@
 import plugin from 'tailwindcss/plugin';
-import lineClamp from '@tailwindcss/line-clamp';
+// import lineClamp from '@tailwindcss/line-clamp';
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -41,7 +41,7 @@ export default {
     },
   },
   plugins: [
-    lineClamp,
+    // lineClamp,
     plugin(function ({ addVariant, e, postcss }) {
       addVariant('firefox', ({ container, separator }) => {
         const isFirefoxRule = postcss.atRule({
