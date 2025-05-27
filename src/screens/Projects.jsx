@@ -35,7 +35,7 @@ const Projects = () => {
                             <BlurText
                                 text={
                                     <>
-                                        Professional <span className="text-[#00debf]"> Skillset </span>
+                                        Recent <span className="text-[#00debf]"> Works </span>
                                     </>
                                 }
                                 delay={30}
@@ -45,7 +45,7 @@ const Projects = () => {
                             />
                         </h1>
                         <p className="mt- text-center text-base sm:text-lg text-gray-300 leading-relaxed">
-                            <ShinyText text="Just some shiny text!" disabled={false} speed={3} className='custom-class' />
+                            <ShinyText text="A quick look at some of my recent projects!" disabled={false} speed={3} className='custom-class' />
                         </p>
                     </div>
                     {/* projs  */}

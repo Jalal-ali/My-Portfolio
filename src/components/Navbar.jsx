@@ -21,8 +21,8 @@ const Navbar = () => {
 
   return (
     <nav className={`w-full  sticky top-0 z-10 bg-[#123128]  bg-opacity-60 ${navColour ? "shadow-lg backdrop-filter backdrop-blur-lg" : ""}`}>
-      <div className="flex flex-wrap items-center justify-between mx-auto p-5 max-w-full w-full">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse"></a>
+      <div className="flex flex-wrap items-center justify-center mx-auto p-5 max-w-full w-full">
+        <a href="#" className="flex items-center text-center space-x-3 mx-auto text-3xl font-sans font-semibold text-[#00debf] rtl:space-x-reverse">jalal ali</a>
         <button
           onClick={() => setHambrgr(!hambrgr)}
           data-collapse-toggle="navbar-default"

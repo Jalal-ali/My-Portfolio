@@ -10,8 +10,11 @@ import Next from '../assets/next.svg'
 import Express from '../assets/express.svg'
 import MongoDB from '../assets/mongodb.svg'
 import GIT from '../assets/git.svg'
+import Github from '../assets/github-white.svg'
 import PY from '../assets/python.svg'
 import Expo from '../assets/expo.svg'
+import Wordpress from '../assets/wordpress.svg'
+import Postgres from '../assets/postgresql.svg'
 import BlurText from '../components/BlurText.jsx'
 
 const Skills = () => {
@@ -50,7 +53,7 @@ const Skills = () => {
               <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105"><img src={Express} alt="logo" className='lg:w-32 w-24' /></div>
               <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105"><img src={MongoDB} alt="logo" className='lg:w-32 w-24' /></div>
               <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105"><img src={GIT} alt="logo" className='lg:w-32 w-24' /></div>
-              <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105"><img src={PY} alt="logo" className='lg:w-32 w-24' /></div>
+              <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105"><img src={Github} alt="logo" className='lg:w-32 w-24' /></div>
               <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105"><img src={Expo} alt="logo" className='lg:w-32 w-24' /></div>
             </div>
           </div>
@@ -65,20 +68,17 @@ const Skills = () => {
             </div>
             <div className="flex flex-wrap justify-center gap-5 my-8">
               <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105">
-                <img src={Html} alt="logo" className='lg:w-32 w-24' />
+                <img src={Wordpress} alt="logo" className='lg:w-32 w-24' />
               </div>
 
               <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105">
-                <img src={CSS} alt="logo" className='lg:w-32 w-24' />
+                <img src={Postgres} alt="logo" className='lg:w-32 w-24' />
               </div>
 
               <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105">
-                <img src={JS} alt="logo" className='lg:w-32 w-24' />
+                <img src={PY} alt="logo" className='lg:w-32 w-24' />
               </div>
 
-              <div className="rounded border-[#00debf] border shadow-md shadow-[#00dec027] lg:py-4 py-4 lg:px-10 px-4 transform transition-transform duration-500 hover:scale-105">
-                <img src={TS} alt="logo" className='lg:w-32 w-24' />
-              </div>
             </div>
 
           </div>

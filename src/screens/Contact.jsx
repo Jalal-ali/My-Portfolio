@@ -46,7 +46,7 @@ const Contact = () => {
                 alt="Avatar Logo" />
             </div>
             {/* form section  */}
-            <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl items-center text-center align-center rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm p-6 md:p-8 lg:p-10">
+            <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl items-center text-center align-center rounded bg-emerald-900 shadow-lg bg-opacity-20 backdrop-blur-sm p-6 md:p-8 lg:p-10">
               <h1 className="text-3xl sm:text-4xl font-bold  mb-10 text-center">
                 Get in  <span className="text-[#00debf]"> Touch </span>
               </h1>
@@ -80,7 +80,7 @@ const Contact = () => {
                 />
                 <button
                   type="submit"
-                  className="text-white bg-[#0eb7a2ba] hover:bg-[#078b7ab5] font-semibold rounded-md text-sm px-4 py-2.5 w-full"
+                  className="text-white bg-[#2cd1bdd4] hover:bg-[#078b7ab5] font-semibold rounded-md text-sm px-4 py-2.5 w-full"
                 >
                   Send
                 </button>
