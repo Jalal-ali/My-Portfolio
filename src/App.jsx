@@ -68,17 +68,16 @@ const App = () => {
 
                 </h1>
                 <p className="mt-6 text-base sm:text-lg text-white leading-relaxed">
-                  I fell in love with programming and I have at least learnt
-                  something, I think… 🤷‍♂️
+                  I am a dedicated software developer with practical experience in building and deploying full-stack applications. 🤷‍♂️
                   <br />
                   <br />
                   I am fluent in classics like{" "}
                   <i>
-                    <b className="text-[#00debf]">JavaScript, React.js, and React Native.</b>
+                    <b className="text-[#00debf]">MERN stack (MongoDB, Express, React, Node).</b>
                   </i>
                   <br />
                   <br />
-                  My field of interest includes building new{" "}
+                  I focus on developing forward-thinking{" "}
                   <i>
                     <b className="text-[#00debf]">Web Technologies and Products</b>
                   </i>{" "}
