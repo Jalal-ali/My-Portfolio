@@ -1,37 +1,36 @@
-import { useState } from "react";
 import Email from "../assets/Newsletter.svg"
 
 const Contact = () => {
-const handleSubmit = async (e) => {
-  e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
-  // Create FormData object to access all form fields
-  const formData = new FormData(e.target);
-  
-  // Convert to plain object
-  const data = Object.fromEntries(formData.entries());
+    // Create FormData object to access all form fields
+    const formData = new FormData(e.target);
 
-  try {
-    const response = await fetch("https://formspree.io/f/mgvkgode", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify(data),
-    });
+    // Convert to plain object
+    const data = Object.fromEntries(formData.entries());
 
-    if (response.ok) {
-      alert("Message sent!");
-      e.target.reset(); // Clear form
-    } else {
-      alert("Failed to send. Please try again.");
+    try {
+      const response = await fetch("https://formspree.io/f/mgvkgode", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        alert("Message sent!");
+        e.target.reset(); // Clear form
+      } else {
+        alert("Failed to send. Please try again.");
+      }
+    } catch (error) {
+      console.error("Submission error:", error);
+      alert("Something went wrong.");
     }
-  } catch (error) {
-    console.error("Submission error:", error);
-    alert("Something went wrong.");
-  }
-};
+  };
 
   return (
     <>
@@ -39,14 +38,15 @@ const handleSubmit = async (e) => {
       <section className="max-w-full w-full bg-[#123128] bg-opacity-60 text-white">
         <div className="max-w-full w-full px-6 sm:px-10 lg:px-28 overflow-hidden">
           {/* blur card section started  */}
-          <div className="my-16 flex items-center text-center justify-between bg-cover bg-center">
-
-            <img
-              className="h-auto my-10 max-w-xs sm:max-w-sm lg:max-w-md"
-              src={Email}
-              alt="Avatar Logo" />
+          <div className="my-16 flex flex-wrap items-center text-center align-center justify-center lg:justify-between bg-cover bg-center">
+            <div className="w-full md:w-5/12 flex justify-center">
+              <img
+                className="h-auto my-10 max-w-xs sm:max-w-sm lg:max-w-md"
+                src={Email}
+                alt="Avatar Logo" />
+            </div>
             {/* form section  */}
-            <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm p-6 md:p-8 lg:p-10">
+            <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl items-center text-center align-center rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm p-6 md:p-8 lg:p-10">
               <h1 className="text-3xl sm:text-4xl font-bold  mb-10 text-center">
                 Get in  <span className="text-[#00debf]"> Touch </span>
               </h1>
@@ -84,9 +84,6 @@ const handleSubmit = async (e) => {
                 >
                   Send
                 </button>
-                
-      {status === "SUCCESS" && <p className="text-green-500 mt-2">Message sent!</p>}
-      {status === "ERROR" && <p className="text-red-500 mt-2">Oops! Something went wrong.</p>}
               </form>
 
             </div>
