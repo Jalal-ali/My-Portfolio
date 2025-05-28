@@ -1,5 +1,7 @@
 import Email from "../assets/Newsletter.svg"
 
+
+
 const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -39,11 +41,28 @@ const Contact = () => {
         <div className="max-w-full w-full px-6 sm:px-10 lg:px-28 overflow-hidden">
           {/* blur card section started  */}
           <div className="my-16 flex flex-wrap items-center text-center align-center justify-center lg:justify-between bg-cover bg-center">
-            <div className="w-full md:w-5/12 flex justify-center">
+            {/* image section  */}
+            <div className="w-full md:w-5/12 my-10">
               <img
-                className="h-auto my-10 max-w-xs sm:max-w-sm lg:max-w-md"
+                className="h-auto my-3 max-w-xs sm:max-w-sm lg:max-w-md"
                 src={Email}
                 alt="Avatar Logo" />
+
+              <div className="rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm inline-flex p-4 items-center w-auto">
+                <svg
+                      className="w-10 h-10 p-1"
+                      fill="currentColor"
+                      viewBox="0 0 48 48"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M44.5 6H3.5C2.1 6 1 7.1 1 8.5v31C1 40.9 2.1 42 3.5 42h41c1.4 0 2.5-1.1 2.5-2.5v-31C47 7.1 45.9 6 44.5 6ZM43 8 24 23 5 8h38Zm1 31H4V12l19.2 15c.5.4 1.1.4 1.6 0L44 12v27Z"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                <span className="font-sans font-nunito  text-base mx-5">alikhanumar795@gmail.com</span>
+
+              </div>
             </div>
             {/* form section  */}
             <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl items-center text-center align-center rounded bg-emerald-900 shadow-lg bg-opacity-20 backdrop-blur-sm p-6 md:p-8 lg:p-10">

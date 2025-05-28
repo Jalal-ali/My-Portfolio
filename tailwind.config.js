@@ -32,7 +32,9 @@ export default {
         }
       },
       fontFamily: {
-        sans: ['Raleway', 'sans-serif']
+        sans: ['Raleway', 'sans-serif'],
+        noto: ['"Noto Serif"', 'serif'],
+        nunito: ['"Nunito"', 'sans-serif'],
       },
       animation: {
         shine: 'shine 5s linear infinite',
