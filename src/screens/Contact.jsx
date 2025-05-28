@@ -39,16 +39,18 @@ const Contact = () => {
       {/* main section  */}
       <section className="max-w-full w-full bg-[#123128] bg-opacity-60 text-white">
         <div className="max-w-full w-full px-6 sm:px-10 lg:px-28 overflow-hidden">
-          {/* blur card section started  */}
+          {/* 1st section section started  */}
           <div className="my-16 flex flex-wrap items-center text-center align-center justify-center lg:justify-between bg-cover bg-center">
-            {/* image section  */}
-            <div className="w-full md:w-5/12 my-10">
+            {/* sub section started */}
+            <div className="w-full md:w-5/12 my-10 align-center items-center flex-col justify-center">
+             <div className="items-center">
               <img
-                className="h-auto my-3 max-w-xs sm:max-w-sm lg:max-w-md"
+                className="h-auto my-3 max-w-xs sm:max-w-sm justify-self-center lg:max-w-md"
                 src={Email}
                 alt="Avatar Logo" />
+             </div>
 
-              <div className="rounded bg-emerald-900 shadow-lg bg-opacity-30 backdrop-blur-sm inline-flex p-4 items-center w-auto">
+              <div className="rounded bg-emerald-900 shadow-lg justify-self-center bg-opacity-30 backdrop-blur-sm inline-flex p-4 items-center w-auto">
                 <svg
                       className="w-10 h-10 p-1"
                       fill="currentColor"
@@ -64,7 +66,9 @@ const Contact = () => {
 
               </div>
             </div>
-            {/* form section  */}
+            {/* sub section ended */}
+
+            {/* blur contact form section  started*/}
             <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl items-center text-center align-center rounded bg-emerald-900 shadow-lg bg-opacity-20 backdrop-blur-sm p-6 md:p-8 lg:p-10">
               <h1 className="text-3xl sm:text-4xl font-bold  mb-10 text-center">
                 Get in  <span className="text-[#00debf]"> Touch </span>
@@ -106,8 +110,10 @@ const Contact = () => {
               </form>
 
             </div>
+            {/* blur contact form section  ended*/}
+
           </div>
-          {/* blur card section ended  */}
+          {/* 1st section section ended  */}
         </div>
       </section>
     </>
