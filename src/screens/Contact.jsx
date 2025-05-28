@@ -45,12 +45,12 @@ const Contact = () => {
             <div className="w-full md:w-5/12 my-10 align-center items-center flex-col justify-center">
              <div className="items-center">
               <img
-                className="h-auto my-3 max-w-xs sm:max-w-sm justify-self-center lg:max-w-md"
+                className="h-auto my-0 max-w-xs sm:max-w-sm justify-self-center lg:max-w-md"
                 src={Email}
                 alt="Avatar Logo" />
              </div>
 
-              <div className="rounded bg-emerald-900 shadow-lg justify-self-center bg-opacity-30 backdrop-blur-sm inline-flex p-4 items-center w-auto">
+              <div className="rounded-lg bg-emerald-900 shadow-lg justify-self-center bg-opacity-30 backdrop-blur-sm inline-flex p-4 items-center w-auto">
                 <svg
                       className="w-10 h-10 p-1"
                       fill="currentColor"
@@ -63,16 +63,27 @@ const Contact = () => {
                       ></path>
                     </svg>
                 <span className="font-sans font-nunito  text-base mx-5">alikhanumar795@gmail.com</span>
-
               </div>
             </div>
             {/* sub section ended */}
 
             {/* blur contact form section  started*/}
-            <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl items-center text-center align-center rounded bg-emerald-900 shadow-lg bg-opacity-20 backdrop-blur-sm p-6 md:p-8 lg:p-10">
-              <h1 className="text-3xl sm:text-4xl font-bold  mb-10 text-center">
+            <div className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 max-w-4xl items-center text-center align-center rounded-lg bg-emerald-900 shadow-lg bg-opacity-20 backdrop-blur-sm p-6 md:p-8 lg:p-10">
+               {/* heading  */}
+          <div className="relative w-full mb-3  h-36 flex items-center justify-center overflow-hidden">
+  {/* Background Heading */}
+  <h1 className="absolute  lg:text-8xl text-6xl font-bold opacity-10 text-[#51e7d5] select-none">
+    CONTACT
+  </h1>
+
+  {/* Foreground Heading */}
+  <h2 className="relative z-10 text-3xl lg:text-4xl font-bold">
+    Get in  <span className="text-[#00debf]"> Touch </span>
+  </h2>
+</div>
+              {/* <h1 className="text-3xl sm:text-4xl font-bold  mb-10 text-center">
                 Get in  <span className="text-[#00debf]"> Touch </span>
-              </h1>
+              </h1> */}
               <form
                 onSubmit={handleSubmit}
                 className="ml-auo space-y-4">
@@ -114,6 +125,8 @@ const Contact = () => {
 
           </div>
           {/* 1st section section ended  */}
+
+         
         </div>
       </section>
     </>
