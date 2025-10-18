@@ -10,9 +10,14 @@ import Salt from "../assets/projects/salt.png"
 import Ecommerce from "../assets/projects/ecommerce.png"
 import Shopping from "../assets/projects/shopping.png"
 import Card from '../components/Card.jsx'
+import Madic from '../assets/projects/madic.png'
 
 const Projects = () => {
     const projects = [
+        { title: "Madic", description: "", image: Weather, githubLink: "https://github.com/Jalal-ali/MADIC", demoLink: "https://madic.vercel.app/" },
+        { title: "Madic", description: "", image: Weather, githubLink: "https://github.com/Jalal-ali/MADIC", demoLink: "https://madic.vercel.app/" },
+        { title: "Madic", description: "", image: Weather, githubLink: "https://github.com/Jalal-ali/MADIC", demoLink: "https://madic.vercel.app/" },
+        { title: "Madic", description: "Developed and implemented a modern, responsive landing page by transforming a Figma design into a fully functional web interface using React and Tailwind CSS. The project focused on pixel-perfect UI conversion, clean component-based architecture, and optimized styling to ensure seamless performance and an engaging user experience across all devices.", image: Madic, githubLink: "https://github.com/Jalal-ali/MADIC", demoLink: "https://madic.vercel.app/" },
         { title: "Weather App", description: "Designed and developed a cutting-edge weather application utilizing React JS and Tailwind CSS, harnessing the power of API calls to fetch real-time weather data. This innovative solution provides users with accurate and reliable weather information, delivering a seamless and engaging user experience.", image: Weather, githubLink: "https://github.com/Jalal-ali/weather-app", demoLink: "https://weather-app-rho-dusky.vercel.app/" },
         { title: "Meme Generator", description: "Meme Generator Web Application using Next.js and Tailwind CSS, featuring dynamic query parameters for efficient single page routing. In this meme app users can select any meme template, create multiple memes effortlessly, and download their creations to their devices as well.", image: Meme, githubLink: "https://github.com/Jalal-ali/meme-app", demoLink: "https://meme-generator-beta-self.vercel.app/"  },
         { title: "Ockom's Site Clone", description: "Visually engaging clone website built using Next.js, TypeScript, Tailwind CSS, and Three.js. It features smooth and interactive 3D Animation to enhance user experience, delivering a fast and modern UI.", image: Ockom, githubLink: "https://github.com/Jalal-ali/ockom-clone", demoLink: "https://ockom-clone.vercel.app/"  },
