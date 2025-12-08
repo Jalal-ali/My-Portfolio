@@ -1,6 +1,7 @@
 import BlurText from '../components/BlurText.jsx'
 import ShinyText from '../components/ShinyText.jsx'
 import Weather from "../assets/projects/weather.png"
+import BetterDay from "../assets/projects/Betterday.png"
 import Meme from "../assets/projects/meme.png"
 import Watch from "../assets/projects/watch.png"
 import Todo from "../assets/projects/to-do.png"
@@ -13,7 +14,6 @@ import Card from '../components/Card.jsx'
 import Madic from '../assets/projects/Madic.png'
 import Portfolio from '../assets/projects/portfolio.png'
 // import BetterDay from '../assets/projects/betterDay.png'
-import BetterDay from "../assets/projects/Betterday.png"
 // import SearchGurbani from '../assets/projects/searchGurbani.png'
 // import MadAlpha from '../assets/projects/madAlpha.png'
 
