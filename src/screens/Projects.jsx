@@ -12,6 +12,7 @@ import Shopping from "../assets/projects/shopping.png"
 import Card from '../components/Card.jsx'
 import Madic from '../assets/projects/Madic.png'
 import Portfolio from '../assets/projects/portfolio.png'
+// import BetterDay from '../assets/projects/betterDay.png'
 import BetterDay from '../assets/projects/betterDay.png'
 // import SearchGurbani from '../assets/projects/searchGurbani.png'
 // import MadAlpha from '../assets/projects/madAlpha.png'
