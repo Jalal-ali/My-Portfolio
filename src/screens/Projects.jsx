@@ -1,7 +1,7 @@
 import BlurText from '../components/BlurText.jsx'
 import ShinyText from '../components/ShinyText.jsx'
 import Weather from "../assets/projects/weather.png"
-import BetterDay from "../assets/projects/Betterday.png"
+import Better from "../assets/projects/Better.png"
 import Meme from "../assets/projects/meme.png"
 import Watch from "../assets/projects/watch.png"
 import Todo from "../assets/projects/to-do.png"
@@ -22,7 +22,7 @@ function Projects() {
         // { title: "Madic", description: "", image: , githubLink: "", demoLink: "" },
         // { title: "Madic", description: "", image: , githubLink: "", demoLink: "" },
         // { title: "Madic", description: "", image: , githubLink: "", demoLink: "" },
-        { title: "The Better Day", description: "Created and developed The Better Day, a dedicated website for an organization supporting orphans, charity programs, and aid donations. The platform enables users to contribute financially and offer support seamlessly, featuring an intuitive interface, and a compassionate design that highlights the organization’s mission to uplift and empower those in need.", image: BetterDay, githubLink: "https://github.com/Jalal-ali/better-day", demoLink: "https://better-day-blond.vercel.app/" },
+        { title: "The Better Day", description: "Created and developed The Better Day, a dedicated website for an organization supporting orphans, charity programs, and aid donations. The platform enables users to contribute financially and offer support seamlessly, featuring an intuitive interface, and a compassionate design that highlights the organization’s mission to uplift and empower those in need.", image: Better, githubLink: "https://github.com/Jalal-ali/better-day", demoLink: "https://better-day-blond.vercel.app/" },
         { title: "Abdullah's Portfolio", description: "Built a dynamic and visually engaging client portfolio website using Next.js, TypeScript, and Tailwind CSS, featuring smooth animations for an interactive user experience. Integrated external APIs using Axios to display real-time content and project data, ensuring fast performance, scalability, and a modern, responsive design across all devices.", image: Portfolio, githubLink: "https://github.com/Jalal-ali/abdullah-portfolio", demoLink: "https://abdullah-portfolio-chi.vercel.app/" },
         { title: "Madic", description: "Developed and implemented a modern, responsive landing page by transforming a Figma design into a fully functional web interface using React and Tailwind CSS. The project focused on pixel-perfect UI conversion, clean component-based architecture, and optimized styling to ensure seamless performance and an engaging user experience across all devices.", image: Madic, githubLink: "https://github.com/Jalal-ali/MADIC", demoLink: "https://madic.vercel.app/" },
         { title: "Weather App", description: "Designed and developed a cutting-edge weather application utilizing React JS and Tailwind CSS, harnessing the power of API calls to fetch real-time weather data. This innovative solution provides users with accurate and reliable weather information, delivering a seamless and engaging user experience.", image: Weather, githubLink: "https://github.com/Jalal-ali/weather-app", demoLink: "https://weather-app-rho-dusky.vercel.app/" },
